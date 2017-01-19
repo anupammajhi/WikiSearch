@@ -1,0 +1,81 @@
+/* Top Styling*/
+
+body{
+	background : url('https://github.com/anupammajhi/ImageStore/raw/master/whitewood.jpg') no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.main-container{
+	width:90%;
+	margin:0 auto;
+	font-family: 'Prata', serif;
+}
+
+.pageHead{
+	text-align:center;
+	padding:10px;
+	font-size:2.8em;
+}
+
+#searchInput:focus{
+	border-color:#ffcc00;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255,204,0, 0.6);
+	outline: 0 none;
+}
+
+.wikiButtons{
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.wikiButtons div{
+	display:inline-block;
+	margin: auto 10px;
+}
+
+/*Result Content Styling*/
+.resultRow{
+	background-color : #999;
+	background-color :rgba(0,0,0,0.7);
+	margin : 10px 0;
+	overflow: auto;
+	padding:20px;
+	border-bottom-width : 10px;
+	border-bottom-style : solid;
+	border-bottom-color : #999;
+	border-bottom-color : transparent;
+	border-radius:30px;
+}
+
+.resultRow:hover{
+	border-bottom-color : #FFCC00;
+}
+
+.resultLink,
+.resultLink:hover,
+.resultLink:visited,
+.resultLink:active,
+.resultLink:link{
+	text-decoration:none;
+	color:white;
+}
+
+.resultImage{
+	float:right;
+	margin-left:20px;
+	border-radius:50%;
+}
+
+.resultImage img{
+
+}
+
+.resultExtract{
+	font-family: Verdana, serif ;
+}
+
+.resultHead{
+	font-size:1.5em;
+	margin-bottom:15px;
+}
